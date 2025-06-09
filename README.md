@@ -177,11 +177,13 @@ Distributed under the MIT License.
 <!-- CONTACT -->
 ## Contact
 
-Samantha Ho - <a href="mailto::samkristinho95@gmail.com">samkristinho95@gmail.com
+Samantha Ho - <a href="mailto::samkristinho95@gmail.com">samkristinho95@gmail.com</a>
 
 Project Repository: [https://github.com/SamKristinHo/PersonalWebsite](https://github.com/SamKristinHo/PersonalWebsite)
 
-Live Project Link:
+Live Project Link: <a href="https://samkristinho.netlify.app/">View Deployed Website </a>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
