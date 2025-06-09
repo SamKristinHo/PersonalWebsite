@@ -29,7 +29,7 @@
     <br />
     <!--<a href="https://github.com/SamKristinHo"><strong>Explore the docs »</strong></a>-->
     <br />
-    <a href="https://github.com/SamKristinHo">View Live Site</a>
+    <a href="https://samkristinho.netlify.app/">View Live Site</a>
     &middot;
     <a href="https://github.com/SamKristinHo/PersonalWebsite/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
