@@ -1,0 +1,150 @@
+/*
+-> Want to see hamburger menu when we are working on it 
+-> We want it so that if a screen is lower than 1200px, the desktop-nav
+will disappear, and the hamburger menu will appear 
+*/
+
+/* Rules for when the screen is 1400px wide and smaller */
+@media screen and (max-width:1400px) {
+  #profile{
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-containers{
+    flex-wrap: wrap;
+  }
+
+
+}
+
+/* Rules for when the screen is 1200px wide and smaller */
+@media screen and (max-width:1200px) {
+  #desktop-nav{
+    display: none;
+  }
+
+  #hamburger-nav{
+    display: flex;
+  }
+
+  #experience, .experience-details-container{
+    margin-top: 2rem;
+  }
+
+  #profile, .section-container{
+    display: block;
+  }
+
+  .arrow{
+    display: none;
+  }
+  section, .section-container{
+    height: fit-content;
+  }
+  section{
+    margin: 0 5%;
+  }
+
+  .section__pic-container{
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-containers{
+    margin-top: 0;
+  }
+}
+
+/* Rules for screens width 600px and less */
+@media screen and (max-width:600px) {
+  #contact, footer{
+    height: 40vh;
+  }
+
+  #profile{
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  article{
+    font-size: 1rem;
+  }
+
+  .article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap; 
+    /* content of article container will wrap to fit container size  */
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: center;
+  }
+
+  article{
+    display: flex;
+    width: 12rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+  footer nav{
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .about-containers, .contact-info-upper-container, .btn-container{
+    flex-wrap: wrap;
+  }
+
+  .contact-info-upper-container{
+    width: 80%;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .email-icon{
+    height: 2rem;
+  }
+
+  .contact-info-container{
+    margin: 0;
+  }
+  .contact-info-container, p, .nav-links li a{
+    font-size: .75rem;
+    
+
+  }
+
+  .experience-sub-title{
+    font-size: 1.25rem;
+  }
+
+  .logo{
+    font-size: 1.5rem;
+  }
+
+  .nav-links{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .section__pic-container{
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  .section__text__p2{
+    font-size: 1.25rem;
+  }
+  .title{
+    font-size: 2rem;
+  }
+
+  .text-container{
+    text-align: justify;
+  }
+}
