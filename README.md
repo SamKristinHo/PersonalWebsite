@@ -106,6 +106,8 @@ assets, social links, markdown files to match your own.
 - ✅ Deployed vanilla HTML, CSS, js version with one page
 - ✅ Created links to subpages and subpages
 - Working on building out subpages with Pages CMS and Showdown.js
+- Working on formatting / styling markdown div classes
+- Potentially will move each category of projects into their own subpages
 
 <!-- LICENSE -->
 
