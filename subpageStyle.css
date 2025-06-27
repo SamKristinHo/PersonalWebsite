@@ -1,0 +1,22 @@
+/* -------------------------IMPORTING GOOGLE FONTS------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/*
+
+Subpage (Projects, Experience) styling css sheet. 
+Subpages are those that flow directly from a link from homepage at index.html
+
+*/
+
+.subpage-headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: Poppins;
+  color: grey;
+}
+
