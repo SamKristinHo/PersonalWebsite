@@ -15,3 +15,4 @@ content:
       - { name: layout, type: string, hidden: true, default: post }
       - { name: description, label: Description, type: string }
       - { name: image, label: Image, type: image }
+      - { name: body, label: Body, type: rich-text }
