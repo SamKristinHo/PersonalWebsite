@@ -5,3 +5,13 @@ media:
   - name: projectMedia
     input: ProjectMedia
     output: ProjectMedia
+content:
+  - name: posts
+    label: Posts
+    path: ProjectPosts
+    type: collection
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: layout, type: string, hidden: true, default: post }
+      - { name: description, label: Description, type: string }
+      - { name: image, label: Image, type: image }
