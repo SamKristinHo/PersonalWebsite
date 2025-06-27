@@ -11,7 +11,7 @@ content:
     path: ProjectPosts
     type: collection
     fields:
-      - { name: title, label: Title, type: String }
+      - { name: title, label: Title, type: string }
       - { name: layout, type: string, hidden: true, default: post }
       - { name: description, label: Description, type: string }
       - { name: image, label: Image, type: image }

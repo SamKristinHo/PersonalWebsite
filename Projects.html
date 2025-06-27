@@ -21,6 +21,8 @@
   <div id="markdown2" class="markdown-section">Loading...</div>
   <div id="markdown3" class="markdown-section">Loading...</div>
 
+ 
+
    <!-- Script for showdown.js to dynamically render md to html -->
   <script>
     const converter = new showdown.Converter();
@@ -31,11 +33,18 @@
       { file: './ProjectPosts/Ravens.md', elementId: 'markdown3' }
     ];
 
+    /*Need to strip YAML Front Matter first or else it will display on webpage*/
+    function stripYAMLFrontMatter(markdown) {
+      // Match YAML front matter between triple-dash lines
+      return markdown.replace(/^---[\s\S]*?---\s*/, '');
+    }
+
     files.forEach(({ file, elementId }) => {
       fetch(file)
         .then(res => res.text())
         .then(markdown => {
-          const html = converter.makeHtml(markdown);
+          const cleaned = stripYAMLFrontMatter(markdown);
+          const html = converter.makeHtml(cleaned);
           document.getElementById(elementId).innerHTML = html;
         })
         .catch(error => {
