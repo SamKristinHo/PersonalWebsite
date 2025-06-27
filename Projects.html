@@ -5,6 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
   <title>Projects</title>
   <link rel="stylesheet" href="subpageStyle.css">
   <link rel="stylesheet" href="mediaqueries.css">
@@ -14,6 +15,36 @@
   <div class="subpage-headers"> <!-- Header Div-->
     <h1>Explore My Projects</h1>
   </div> <!-- Header Div End-->
+
+   <!-- Target containers for each markdown file -->
+  <div id="markdown1" class="markdown-section">Loading...</div>
+  <div id="markdown2" class="markdown-section">Loading...</div>
+  <div id="markdown3" class="markdown-section">Loading...</div>
+
+   <!-- Script for showdown.js to dynamically render md to html -->
+  <script>
+    const converter = new showdown.Converter();
+
+    const files = [
+      { file: './ProjectPosts/MLStock.md', elementId: 'markdown1' },
+      { file: './ProjectPosts/PersonalWebsite.md', elementId: 'markdown2' },
+      { file: './ProjectPosts/Ravens.md', elementId: 'markdown3' }
+    ];
+
+    files.forEach(({ file, elementId }) => {
+      fetch(file)
+        .then(res => res.text())
+        .then(markdown => {
+          const html = converter.makeHtml(markdown);
+          document.getElementById(elementId).innerHTML = html;
+        })
+        .catch(error => {
+          document.getElementById(elementId).textContent = 'Failed to load content.';
+          console.error(`Error loading ${file}:`, error);
+        });
+    });
+  </script>
+
 
 
 

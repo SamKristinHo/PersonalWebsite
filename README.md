@@ -1,7 +1,3 @@
-
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -12,8 +8,6 @@
 -->
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -36,8 +30,6 @@
     <a href="https://github.com/SamKristinHo/PersonalWebsite/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -65,116 +57,64 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-[![Website Header][./assets/screenshot.png]](https://example.com)
+Created a responsive desktop/mobile portfolio website from scratch using Vanilla / plain HTML, CSS, and JavaScript. Will continue updates and development with React in later iterations.
 
-Created a responsive desktop/mobile portfolio website from scratch using Vanilla / plain HTML, CSS, and JavaScript. Will continue updates and development with React in later iterations. 
-
-
-Development environment used is Visual Code along with the Live Server extension. This extension launches the project in a local development server, with live/auto reload ability upon saving code files to aid in efficient testing during development. 
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Development environment used is Visual Code along with the Live Server extension. This extension launches the project in a local development server, with live/auto reload ability upon saving code files to aid in efficient testing during development.
 
 ### Built With
 
-* [![HTML][HTML-js]][HTML-url]
-* [![CSS][CSS-js]][CSS-url]
-* [![Javascript][Javascript-js]][Javascript-url]
+- [![HTML][HTML-js]][HTML-url]
+- [![CSS][CSS-js]][CSS-url]
+- [![Javascript][Javascript-js]][Javascript-url]
 
 ### Deployed With
-* [![Netlify][Netlify-js]][Netlify-url]
 
+- [![Netlify][Netlify-js]][Netlify-url]
+  - Netlify allows for hosting of static websites (faster to render, secure)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Supported By
 
-
+- showdown.js library to convert Markdown files to HTML dynamically
+- Pages CMS to manage content on static site
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Customize the personal portfolio website by pulling to your local repo and changing
+assets, social links, markdown files to match your own.
 
-### Prerequisites
+### Customize your own
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/SamKristinHo/PersonalWebsite.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin SamKristinHo/repo_name
-   git remote -v # confirm the changes
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+2. Make personal changes
+3. Deploy on Netlify
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
-## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+## Development Timeline
 
-See the [open issues](https://github.com/SamKristinHo/PersonalWebsite/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
+- ✅ Deployed vanilla HTML, CSS, js version with one page
+- ✅ Created links to subpages and subpages
+- Working on building out subpages with Pages CMS and Showdown.js
 
 <!-- LICENSE -->
+
 ## License
 
-Distributed under the MIT License. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Distributed under the MIT License.
 
 <!-- CONTACT -->
+
 ## Contact
 
 Samantha Ho - <a href="mailto::samkristinho95@gmail.com">samkristinho95@gmail.com</a>
@@ -183,18 +123,9 @@ Project Repository: [https://github.com/SamKristinHo/PersonalWebsite](https://gi
 
 Live Project Link: <a href="https://samkristinho.netlify.app/">View Deployed Website </a>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/SamKristinHo/PersonalWebsite.svg?style=for-the-badge
 [contributors-url]: https://github.com/SamKristinHo/PersonalWebsite/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/SamKristinHo/PersonalWebsite.svg?style=for-the-badge
@@ -223,8 +154,7 @@ Live Project Link: <a href="https://samkristinho.netlify.app/">View Deployed Web
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-
+[JQuery-url]: https://jquery.com
 [HTML-js]: https://img.shields.io/badge/HTML5-black?logo=html5
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS-js]: https://img.shields.io/badge/css-purple?logo=css
