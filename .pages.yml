@@ -1,1 +1,7 @@
-media: ProjectMedia
+media:
+  - name: experienceMedia
+    input: ExperienceMedia
+    output: ExperienceMedia
+  - name: projectMedia
+    input: ProjectMedia
+    output: ProjectMedia
